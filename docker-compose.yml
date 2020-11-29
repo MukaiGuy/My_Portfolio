@@ -1,0 +1,25 @@
+version: '3.7'
+
+services:
+  pages:
+    build: ./backend
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - ./backend/:/usr/src/backend/
+    ports:
+      - 8000:8000
+    env_file:
+      - ./backend/.env
+    depends_on:
+      - mukaiguy-db
+  mukaiguy-db:
+    image: postgres:12-alpine
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=mukaiguy
+      - POSTGRES_PASSWORD=4BJX*n&x5c4pWdt
+      - POSTGRES_DB=mukaiguy_dev
+
+volumes:
+  postgres_data:

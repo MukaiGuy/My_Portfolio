@@ -1,0 +1,15 @@
+{
+	"python.pythonPath": ".venv/bin/python",
+	"javascript.format.placeOpenBraceOnNewLineForFunctions": true,
+	"javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+	"emmet.showSuggestionsAsSnippets": true,
+	"pythonPreview.fontSize": 14,
+	"autoDocstring.includeExtendedSummary": true,
+	"autoDocstring.includeName": true,
+	"autoDocstring.quoteStyle": "'''",
+	"autoDocstring.startOnNewLine": true,
+	"vsintellicode.features.python.deepLearning": "enabled",
+	"pythonTestExplorer.testFramework": "pytest",
+	"python.analysis.useLibraryCodeForTypes": true,
+	"python.venvPath": ".venv/bin/python"
+}
