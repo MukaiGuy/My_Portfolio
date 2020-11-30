@@ -1,13 +1,10 @@
-# from django.db import models
+from django.db import models
 from django.contrib.auth.models import AbstractUser
 
 
 class CustomUser(AbstractUser):
     pass
 
-
-# For later use
-'''
 class Repo(models.Model):
     genre = models.CharField(max_length=255)
     title = models.CharField(max_length=255)
@@ -19,4 +16,3 @@ class Repo(models.Model):
     def __str__(self):
         return f"{self.title}"
     pass
-'''

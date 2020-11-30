@@ -1,7 +1,9 @@
 # pages URL Configuration
 
 from django.urls import path
+from .views import RepoList
+
 
 urlpatterns = [
-    path('', views.home, name='home'),
+    path("api/Repos/", RepoList.as_view()),
 ]
