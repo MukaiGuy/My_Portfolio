@@ -85,4 +85,4 @@ chmod +x entrypoint.sh
 
 ## [The Containerization](#container)
 
-For this 
+For this project we are using Apline Linux as the base. 

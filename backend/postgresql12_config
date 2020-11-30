@@ -1,0 +1,7 @@
+# generated 2020-11-30, Mozilla Guideline v5.6, PostgreSQL 12, OpenSSL 1.1.1d, modern configuration
+# https://ssl-config.mozilla.org/#server=postgresql&version=12&config=modern&openssl=1.1.1d&guideline=5.6
+ssl = on
+
+ssl_cert_file = '/path/to/signed_cert_plus_intermediates'
+ssl_key_file = '/path/to/private_key'
+ssl_min_protocol_version = 'TLSv1.3'
